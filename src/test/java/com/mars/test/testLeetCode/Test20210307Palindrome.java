@@ -1,6 +1,6 @@
 package testDemo;
 
-public class Test0307Palindrome {
+public class Test20210307Palindrome {
     public static void main(String[] args) {
         boolean bl=testPalindrome(1221);
         System.out.println(bl);

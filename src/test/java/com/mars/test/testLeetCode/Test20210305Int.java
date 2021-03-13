@@ -1,6 +1,6 @@
 package com.example.mars.demo;
 
-public class TestInt20210305 {
+public class Test20210305Int {
     public static void main(String[] args) {
         int b=reverse(-33647);
         System.out.println(b);
