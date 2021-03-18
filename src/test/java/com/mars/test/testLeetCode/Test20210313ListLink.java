@@ -21,7 +21,11 @@ public class Test20210313ListLink {
         l1.addAll(l2);
         Collections.sort(l1);
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 8b64dc076c013821e10495b16b894e60c925dfd9
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
