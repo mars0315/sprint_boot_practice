@@ -1,4 +1,4 @@
-package testDemo;
+package com.mars.test.testPractice_50;
 
 import jdk.nashorn.internal.runtime.regexp.joni.Regex;
 

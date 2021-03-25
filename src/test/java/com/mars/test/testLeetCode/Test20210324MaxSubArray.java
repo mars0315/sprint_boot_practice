@@ -2,11 +2,11 @@ package com.mars.test.testLeetCode;
 
 public class Test20210324MaxSubArray {
     public static void main(String[] args) {
-        int mm= maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4} );
+        int mm= maxSubArray2(new int[]{-2,1,-3,4,-1,2,1,-5,4} );
         System.out.println(mm);
     }
 
-    public int maxSubArray2(int[] nums) {
+    public static int maxSubArray2(int[] nums) {
         int pre = 0, maxAns = nums[0];
         for (int x : nums) {
             pre = Math.max(pre + x, x);
@@ -27,9 +27,7 @@ public class Test20210324MaxSubArray {
                 for (int k = 0; k < i; k++) {
                     sum = sum + nums[k + j];
                 }
-                if (sum > max) {
-                    max = sum;
-                }
+                max = Math.max(max,sum);
             }
             i++;
         }
