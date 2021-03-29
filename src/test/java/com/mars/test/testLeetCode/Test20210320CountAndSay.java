@@ -1,5 +1,8 @@
 package com.mars.test.testLeetCode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Test20210320CountAndSay {
     public static void main(String[] args) {
         countAndSay(6);
@@ -22,4 +25,6 @@ public class Test20210320CountAndSay {
         }
         return sb.toString();
     }
+
+
 }
