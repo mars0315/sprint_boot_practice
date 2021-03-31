@@ -1,7 +1,4 @@
-package com.mars.test.testLeetCode;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.test.testLeetCode;
 
 public class Test20210320CountAndSay {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.mars.test.testLeetCode;
+package com.test.testLeetCode;
 
 public class Test20210329PlusOne {
 

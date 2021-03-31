@@ -1,4 +1,4 @@
-package testDemo;
+package com.test.testPractice_50;
 
 public class TestArray {
     public static void main(String[] args) {

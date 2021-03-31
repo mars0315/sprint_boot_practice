@@ -1,4 +1,4 @@
-package com.mars.test.testUtils;//import java.util.Iterator;
+package com.test.testUtils;//import java.util.Iterator;
 //
 //import net.sf.json.JSONArray;
 //import net.sf.json.JSONObject;

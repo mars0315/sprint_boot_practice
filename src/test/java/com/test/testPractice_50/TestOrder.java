@@ -1,4 +1,4 @@
-package com.mars.test.testPractice_50;
+package com.test.testPractice_50;
 
 //import org.jetbrains.annotations.NotNull;
 

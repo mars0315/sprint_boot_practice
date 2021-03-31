@@ -1,4 +1,4 @@
-package com.mars.test.testUtils;//package com.lemon.phoenix.tester;
+package com.test.testUtils;//package com.lemon.phoenix.tester;
 //
 //import org.testng.annotations.Test;
 //

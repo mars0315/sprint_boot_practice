@@ -1,4 +1,4 @@
-package com.mars.test.testStudy;
+package com.test.testStudy;
 
 public class StudyString {
     public static void main(String[] args) {

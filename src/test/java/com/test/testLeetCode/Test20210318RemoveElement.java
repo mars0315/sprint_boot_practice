@@ -1,4 +1,4 @@
-package com.mars.test.testLeetCode;
+package com.test.testLeetCode;
 
 public class Test20210318RemoveElement {
     public static void main(String[] args) {

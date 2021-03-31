@@ -1,4 +1,4 @@
-package com.mars.test.testUtils;//package com.example.mars.demo;
+package com.test.testUtils;//package com.example.mars.demo;
 //
 //import java.util.HashMap;
 //import java.util.Iterator;

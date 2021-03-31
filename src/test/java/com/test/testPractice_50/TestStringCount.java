@@ -1,8 +1,4 @@
-package com.mars.test.testPractice_50;
-
-import jdk.nashorn.internal.runtime.regexp.joni.Regex;
-
-import java.util.regex.Matcher;
+package com.test.testPractice_50;
 
 public class TestStringCount {
     public static void main(String[] args) {
