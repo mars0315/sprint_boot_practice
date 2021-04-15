@@ -3,7 +3,7 @@
 //import net.sf.json.JSONArray;
 //import net.sf.json.JSONObject;
 //
-//public class JsonUtil {
+//public class ReadJsonFileUtil {
 //    public static void main(String[] args) {
 //
 //    }

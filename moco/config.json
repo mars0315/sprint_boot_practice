@@ -1,0 +1,58 @@
+[
+  {
+    "description": "模拟一个没有参数的get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是一个没有参数的get请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "模拟一个没有参数的get请求",
+    "request": {
+      "uri": "/getwithparam",
+      "method": "get"
+    },
+    "response": {
+      "text": "请求数据：get",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "/模拟一个Post例子",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "第一个moco模拟一个Post例子",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "json": {
+        "name":"zhangsan" ,
+        "age": "22"
+      }
+    },
+    "response": {
+      "text": "请求数据：post",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]

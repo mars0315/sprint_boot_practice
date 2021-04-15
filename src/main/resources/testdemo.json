@@ -1,0 +1,20 @@
+{
+  "name": "Facade_Search_StoreList",
+  "type": "Get",
+  "sprint": "Sprint2107",
+  "url": "facade_search/api/v2/stores?extra_infos=address,workingHours",
+  "url_address": "facade_search/api/v2/stores?extra_infos=address",
+  "url_working_hours": "facade_search/api/v2/stores?extra_infos=workingHours",
+  "x-api-key": "e32913fb-9e5f-49d6-8b4c-d9571138a1a0",
+  "code": "I09-2001",
+  "Ecode": "E09-4000",
+  "title": "Success",
+  "Etitle": "Invalid request",
+  "message_401": "API Key is not valid or is expired / revoked.",
+  "message": "API Key is not valid or is expired / revoked.",
+  "Keywords": "homepage,listing_page,product_page,cart,account,my_orders",
+  "requestBody": {
+    "client_name": "MPMSTORE",
+    "person_id": 15005008294
+  }
+}
