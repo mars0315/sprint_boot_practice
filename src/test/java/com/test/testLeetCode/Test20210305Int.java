@@ -6,6 +6,7 @@ public class Test20210305Int {
         System.out.println(b);
     }
 
+
     public static int reverse(int x) {
         boolean flag=false;
         String str=x+"";
