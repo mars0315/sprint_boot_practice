@@ -19,6 +19,9 @@
       "method": "get"
     },
     "response": {
+    "cookies": {
+      "api-key": "a12345678965234214sgfsgfs"
+    },
       "text": "请求数据：get",
       "headers": {
         "Content-Type": "text/html;charset=gbk"
