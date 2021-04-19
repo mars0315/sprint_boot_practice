@@ -3,6 +3,7 @@ package com.utils;
 import com.alibaba.fastjson.JSON;
 import okhttp3.*;
 import org.jetbrains.annotations.NotNull;
+import java.io.IOException;
 
 import java.net.Proxy;
 import java.util.ArrayList;
@@ -53,8 +54,7 @@ public class HttpRequest {
                     public void saveFromResponse(@NotNull HttpUrl httpUrl, @NotNull List<Cookie> list) {
                         List<Cookie> cookies=new ArrayList<>();
                         cookies.addAll(list);
-                        for (String key:cookiesList.keySet()
-                             ) {
+                        for (String key:cookiesList.keySet()) {
                             if (key.equals(httpUrl.host())) {
                                 cookies.removeAll(cookiesList.get(key));
                                 cookies.addAll(cookiesList.get(key));
@@ -73,8 +73,20 @@ public class HttpRequest {
         if (this.proxy != null) {
             clientBuild.proxy(this.proxy);
         }
+        OkHttpClient client=clientBuild.build();
+        HttpResponse hr=null;
 
-        return null;
+        Response response= null;
+        try {
+            response = client.newCall(request).execute();
+            String bodyStr=response.body().string();
+            hr=new HttpResponse(bodyStr,response.code(),response.headers());
+            response.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return hr;
+
     }
 
 
