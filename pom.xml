@@ -3,9 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
-    <modules>
-        <module>cucumberDemo</module>
-    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -92,14 +90,6 @@
             <artifactId>junit</artifactId>
         </dependency>
 
-
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>6.9.1</version>
-        </dependency>
-
         <!-- 以下是2.0.0以上版本 groupId=io.cucumber -->
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -116,7 +106,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>4.3.1</version>
+            <version>6.9.1</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
